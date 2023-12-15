@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 5px;
+    background-color: lightgray;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+}
+
+.divInput{
+    margin: 5px;
+}
+
+.divList{
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+.divCounters{
+    margin: 4px;
+    width: 30%;
+}
+
+.divTask{
+    margin: 4px;
+    width: 70%;
+}
