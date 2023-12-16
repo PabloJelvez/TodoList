@@ -7,19 +7,40 @@ body{
     display: flex;
     justify-content: center;
 }
-
+h1{
+    margin: 20px;
+}
 .container{
     margin: 5px;
     background-color: lightgray;
     display: flex;
     border: 2px solid black;
     flex-direction: column;
-    width: 600px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
 }
 
 .divInput{
-    margin: 5px;
+    margin: 10px;
+}
+label{
+    margin: 10px;
+}
+.newTask{
+    width: 550px;
+    height: 30px;
+    margin: 10px;
+}
+
+.btnTask{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.btnTask:hover{
+    background-color: teal;
 }
 
 .divList{
@@ -29,11 +50,37 @@ body{
 }
 
 .divCounters{
-    margin: 4px;
+    margin: 10px;
     width: 30%;
 }
 
+
 .divTask{
-    margin: 4px;
+    margin: 10px;
     width: 70%;
 }
+
+ul {
+    list-style: none;
+  }
+  ul span {
+    font-weight: bold;
+  }
+
+  ul li{
+    margin: 15px;
+  }
+  
+  .delete {
+    cursor: pointer;
+    margin: 15px;
+  }
+
+  th{
+    margin: 25px;
+    padding: 10px;
+  }
+
+  td{
+    padding: 5px;
+  }

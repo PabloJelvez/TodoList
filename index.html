@@ -13,14 +13,17 @@
             <h1>Todo List</h1><hr>
             <div id="divInput" class="divInput">
                 <label for="newTask">Nueva tarea</label><br>
-                <input type="text" id="newTask">
-                <button id="btnTask">Agregar</button>
+                <input type="text" id="newTask" class="newTask">
+                <button id="btnTask" class="btnTask">Agregar</button>
             </div>
         </div>
         <div id="divList" class="divList">
             <div id="divCounters" class="divCounters">
-                <p>Total: <span id="taskCounter"></span></p>
-                <p>Realizadas:</p>
+                <ul class="counters">
+                    <li>Total: <span>0</span></li>
+                    <li>Realizadas: <span>0</span></li>
+                    <li>Pendientes: <span>0</span></li>
+                  </ul>
             </div>
             <div id="divTask" class="divTask">
                 <table>
